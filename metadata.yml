@@ -22,7 +22,8 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Higher values indicate higher predicted Gram-negative accumulation.
+Interpretation: Higher values indicate higher predicted Gram-negative 
+  accumulation.
 Tag:
   - E.coli
   - Fingerprint
@@ -37,3 +38,4 @@ Publication: https://doi.org/10.1021/jacsau.5c00602
 Source Code: https://github.com/sieber-lab/AIbiotics
 License: MIT
 Contributor: arnaucoma24
+Incorporation Date: '2026-03-24'
