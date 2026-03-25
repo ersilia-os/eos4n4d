@@ -1,6 +1,6 @@
 Identifier: eos4n4d
 Slug: weighted-gram-negative-accumulation-prediction
-Status: In Progress
+Status: In progress
 Title: Weighted Gram-Negative Accumulation Prediction
 Description: Prediction of small-molecule accumulation in Gram-negative bacteria
   using the weighted ensemble described by Köllen et al. The model combines an 
