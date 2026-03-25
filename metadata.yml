@@ -25,7 +25,6 @@ Output Consistency: Fixed
 Interpretation: Higher values indicate higher predicted Gram-negative accumulation.
 Tag:
   - E.coli
-  - S.aureus
   - Fingerprint
   - Similarity
 Biomedical Area:
