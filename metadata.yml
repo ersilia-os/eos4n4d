@@ -11,36 +11,28 @@ Description: Prediction of small-molecule accumulation in Gram-negative bacteria
   Gram-negative bacteria.
 Deployment:
   - Local
-  - Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization,
-  Projection, Similarity search, Generation
+Source: Local
+Source Type: External
+Task: Annotation
+Subtask: Property calculation or prediction
 Input:
   - Compound
 Input Dimension: 1
 Output:
-  - Value
   - Score
-  - Compound
-  - Text
 Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: The output of this template model should be interpreted like 
-  this.
+Output Consistency: Fixed
+Interpretation: Higher values indicate higher predicted Gram-negative accumulation.
 Tag:
   - E.coli
   - S.aureus
   - Fingerprint
   - Similarity
 Biomedical Area:
-  - Biomedical Area 1
-  - Biomedical Area 2
+  - ADMET
 Target Organism:
-  - Target Organism 1
-  - Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+  - Escherichia coli
+Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://doi.org/10.1021/jacsau.5c00602
 Source Code: https://github.com/sieber-lab/AIbiotics
