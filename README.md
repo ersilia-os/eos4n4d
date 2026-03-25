@@ -2,6 +2,7 @@
 
 Prediction of small-molecule accumulation in Gram-negative bacteria using the weighted ensemble described by Köllen et al. The model combines an AutoML predictor trained on the Richter accumulation dataset with the TwinBooster zero-shot predictor, weighting both components by top-k Tanimoto similarity to the training set. It returns a single weighted accumulation score per compound for prioritization of molecules likely to accumulate in Gram-negative bacteria.
 
+This model was incorporated on 2026-03-24.
 
 
 ## Information
@@ -34,8 +35,11 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4n4d.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4n4d.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1085`
+- **Environment Size (Mb):** `8370`
 
 
 ### References
