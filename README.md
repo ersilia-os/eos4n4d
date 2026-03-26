@@ -8,7 +8,7 @@ This model was incorporated on 2026-03-24.
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos4n4d`
-- **Slug:** `weighted-gram-negative-accumulation-prediction`
+- **Slug:** `gram-negative-accumulation`
 
 ### Domain
 - **Task:** `Annotation`
