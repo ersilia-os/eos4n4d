@@ -9,4 +9,4 @@ commands:
   - ["pip", "scikit-learn", "1.3.2"]
   - ["pip", "chembl-structure-pipeline", "1.2.4"]
   - ["pip", "ersilia-pack-utils", "0.1.5"]
-  - ["pip", "numpy", "1.26.4"]
+  - ["pip", "numpy", "1.24.4"]
