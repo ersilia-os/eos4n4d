@@ -1,7 +1,7 @@
 python: "3.8"
 commands:
   - ["conda", "rdkit", "2024.3.5", "conda-forge"]
-  - ["conda", "autogluon", "1.1.1", "conda-forge"]
+  - ["conda", "autogluon.tabular", "1.1.1", "conda-forge"]
   - ["conda", "pandas", "2.0.3", "conda-forge"]
   - ["conda", "scipy", "1.10.1", "conda-forge"]
   - ["conda", "joblib", "1.4.2", "conda-forge"]
