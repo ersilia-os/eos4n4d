@@ -1,6 +1,21 @@
 # imports
 import os
 import sys
+
+# Redirect twinbooster's internal HuggingFace download to bundled local checkpoint.
+# twinbooster hardcodes "mschuh/PubChemDeBERTa-augmented" with no public override,
+# so we patch TextEmbedding.__init__ before the first import.
+_root_patch = os.path.dirname(os.path.abspath(__file__))
+_local_checkpoint = os.path.abspath(
+    os.path.join(_root_patch, "..", "..", "checkpoints", "pubchemdeberta")
+)
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+import twinbooster.scripts.llm.text_embeddings as _te
+_orig_te_init = _te.TextEmbedding.__init__
+def _patched_te_init(self, model_checkpoint=_local_checkpoint):
+    _orig_te_init(self, model_checkpoint=model_checkpoint)
+_te.TextEmbedding.__init__ = _patched_te_init
+
 import numpy as np
 from ersilia_pack_utils.core import read_smiles, write_out
 

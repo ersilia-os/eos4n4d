@@ -1,2 +1,5 @@
 model/checkpoints/twinbooster/scripts/barlow_twins/best_model/weights.pt filter=lfs diff=lfs merge=lfs -text
 model/checkpoints/twinbooster/scripts/lgbm/best_model/lgbm_model.joblib filter=lfs diff=lfs merge=lfs -text
+model/checkpoints/pubchemdeberta/*.bin filter=lfs diff=lfs merge=lfs -text
+model/checkpoints/pubchemdeberta/*.safetensors filter=lfs diff=lfs merge=lfs -text
+model/checkpoints/pubchemdeberta/spm.model filter=lfs diff=lfs merge=lfs -text
