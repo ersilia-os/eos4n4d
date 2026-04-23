@@ -1,6 +1,6 @@
 Identifier: eos4n4d
 Slug: gram-negative-accumulation
-Status: In progress
+Status: Ready
 Title: Weighted Gram-Negative Accumulation Prediction
 Description: Prediction of small-molecule accumulation in Gram-negative bacteria
   using the weighted ensemble described by Köllen et al. The model combines an 
@@ -39,6 +39,16 @@ Source Code: https://github.com/sieber-lab/AIbiotics
 License: MIT
 Contributor: arnaucoma24
 Incorporation Date: '2026-03-24'
+Last Packaging Date: '2026-04-23'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4n4d.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos4n4d
+Docker Architecture: AMD64
 Model Size: 1962.0
 Environment Size: 7977.0
+Image Size: 8365.69
+Computational Performance 1: 35.21
+Computational Performance 2: 25.03
+Computational Performance 3: 25.7
+Computational Performance 4: 102.68
+Computational Performance 5: 462.35
