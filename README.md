@@ -1,6 +1,6 @@
 # Weighted Gram-Negative Accumulation Prediction
 
-Prediction of small-molecule accumulation in Gram-negative bacteria using the weighted ensemble described by Köllen et al. The model combines an AutoML predictor trained on the Richter accumulation dataset with the TwinBooster zero-shot predictor, weighting both components by top-k Tanimoto similarity to the training set. It returns a single weighted accumulation score per compound for prioritization of molecules likely to accumulate in Gram-negative bacteria.
+Reports a weighted accumulation score capturing how much compound builds up inside Gram-negative bacteria, the bottleneck that stops most antibacterial chemistry from working. Köllen and colleagues used the measure inside a generative pipeline, scoring proposed structures for likely accumulation before synthesis, and went on to make and test compounds that proved potent against Gram-negative organisms. The score reflects predicted intracellular concentration, which is a prerequisite for activity rather than a measure of it.
 
 This model was incorporated on 2026-03-24.Last packaged on 2026-04-23.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-03-24.Last packaged on 2026-04-23.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Higher values indicate higher predicted Gram-negative accumulation.
+- **Interpretation:** Weighted accumulation score where higher values indicate greater predicted uptake into Gram-negative bacteria.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
