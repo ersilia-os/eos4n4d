@@ -1,6 +1,6 @@
 # Weighted Gram-Negative Accumulation Prediction
 
-Reports a weighted accumulation score capturing how much compound builds up inside Gram-negative bacteria, the bottleneck that stops most antibacterial chemistry from working. Köllen and colleagues used the measure inside a generative pipeline, scoring proposed structures for likely accumulation before synthesis, and went on to make and test compounds that proved potent against Gram-negative organisms. The score reflects predicted intracellular concentration, which is a prerequisite for activity rather than a measure of it.
+Reports a weighted accumulation score capturing how much compound builds up inside Gram-negative bacteria, the bottleneck that stops most antibacterial chemistry from working. Köllen and colleagues blend an AutoML model fitted on the Richter Escherichia coli accumulation data with TwinBooster, a zero-shot predictor for distant chemistry, weighting the two by a molecule's mean Tanimoto similarity to its five nearest training compounds. They used the score to triage generated structures before synthesis, and what they made was active against E. coli and Staphylococcus aureus.
 
 This model was incorporated on 2026-03-24.Last packaged on 2026-04-23.
 
