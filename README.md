@@ -1,6 +1,6 @@
 # Weighted Gram-Negative Accumulation Prediction
 
-Reports a weighted accumulation score capturing how much compound builds up inside Gram-negative bacteria, the bottleneck that stops most antibacterial chemistry from working. Köllen and colleagues blend an AutoML model fitted on the Richter Escherichia coli accumulation data with TwinBooster, a zero-shot predictor for distant chemistry, weighting the two by a molecule's mean Tanimoto similarity to its five nearest training compounds. They used the score to triage generated structures before synthesis, and what they made was active against E. coli and Staphylococcus aureus.
+Reports a weighted accumulation score capturing how much compound builds up inside Gram-negative bacteria, the bottleneck that stops most antibacterial chemistry from working. Köllen and colleagues blend an AutoML model fitted on the Richter Escherichia coli accumulation data with TwinBooster, a zero-shot predictor for distant chemistry, weighting the two by a molecules mean Tanimoto similarity to its five nearest training compounds. They used the score to triage generated structures before synthesis, and what they made was active against E. coli and Staphylococcus aureus.
 
 This model was incorporated on 2026-03-24.Last packaged on 2026-04-23.
 
@@ -39,8 +39,8 @@ Below are the **Output Columns** of the model:
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4n4d.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4n4d.zip)
 
 ### Resource Consumption
-- **Model Size (Mb):** `1962`
-- **Environment Size (Mb):** `7977`
+- **Model Size (Mb):** `1259`
+- **Environment Size (Mb):** `1993`
 - **Image Size (Mb):** `8365.69`
 
 **Computational Performance (seconds):**
