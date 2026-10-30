@@ -2,7 +2,7 @@
 
 Reports a weighted accumulation score capturing how much compound builds up inside Gram-negative bacteria, the bottleneck that stops most antibacterial chemistry from working. Köllen and colleagues blend an AutoML model fitted on the Richter Escherichia coli accumulation data with TwinBooster, a zero-shot predictor for distant chemistry, weighting the two by a molecules mean Tanimoto similarity to its five nearest training compounds. They used the score to triage generated structures before synthesis, and what they made was active against E. coli and Staphylococcus aureus.
 
-This model was incorporated on 2026-03-24.Last packaged on 2026-04-23.
+This model was incorporated on 2026-03-24.Last packaged on 2026-10-30.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1259`
 - **Environment Size (Mb):** `1993`
-- **Image Size (Mb):** `8365.69`
+- **Image Size (Mb):** `3207.34`
 
 **Computational Performance (seconds):**
-- 10 inputs: `35.21`
-- 100 inputs: `25.7`
-- 10000 inputs: `462.35`
+- 10 inputs: `28.62`
+- 100 inputs: `18.3`
+- 10000 inputs: `301.92`
 
 ### References
 - **Source Code**: [https://github.com/sieber-lab/AIbiotics](https://github.com/sieber-lab/AIbiotics)
