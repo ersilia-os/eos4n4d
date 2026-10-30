@@ -12,9 +12,9 @@ This model was incorporated on 2026-03-24.Last packaged on 2026-04-23.
 ### Domain
 - **Task:** `Annotation`
 - **Subtask:** `Property calculation or prediction`
-- **Biomedical Area:** `ADMET`
+- **Biomedical Area:** `Antimicrobial resistance`, `Diarrheal diseases`
 - **Target Organism:** `Escherichia coli`
-- **Tags:** `E.coli`, `Fingerprint`, `Similarity`
+- **Tags:** `Antimicrobial activity`, `ESKAPE`
 
 ### Input
 - **Input:** `Compound`
