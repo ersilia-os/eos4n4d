@@ -45,8 +45,8 @@ Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4n4d.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4n4d
 Docker Architecture: AMD64
-Model Size: 1962.0
-Environment Size: 7977.0
+Model Size: 1259.0
+Environment Size: 1993.0
 Image Size: 8365.69
 Computational Performance 1: 35.21
 Computational Performance 2: 25.03
